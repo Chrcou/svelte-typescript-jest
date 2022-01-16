@@ -1,0 +1,1 @@
+<script lang="ts"></script><div>niania works !</div><style lang="scss">@import "nianiaStyles";</style>

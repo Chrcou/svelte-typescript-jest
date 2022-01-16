@@ -1,0 +1,5 @@
+{
+  "svelteFile": "<script lang=€ts€></script><div>°°°°</div><style lang=€scss€>@import €ùùù€;</style>",
+
+  "testFile": "import { render } from €@testing-library/svelte€;import ùùù from €../ùùù.svelte€;test(€should render€, () => {  const results = render(ùùù, { props: { name: €world€ } });  expect(() => results.getByText(€Hello world!€)).not.toThrow();});"
+}

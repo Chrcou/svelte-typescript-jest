@@ -1,0 +1,1 @@
+import { render } from "@testing-library/svelte";import niania from "../niania.svelte";test("should render", () => {  const results = render(niania, { props: { name: "world" } });  expect(() => results.getByText("Hello world!")).not.toThrow();});
